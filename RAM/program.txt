@@ -1,0 +1,10 @@
+LD #0001 	! A<=0001
+ST 2000	! MEM[2000]<=0001
+ADD 2010	! A<=0004
+MUL (1020)	! A<=0008
+SUB 2014	! A<=0004
+ST R[5]	! GPR[5]<=0004
+DEC		! A<=0003
+LD (R[7])	! A<=0006
+ROL		! A<=000C
+HALT		! kraj programa
